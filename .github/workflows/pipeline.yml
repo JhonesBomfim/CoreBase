@@ -17,4 +17,4 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-      - uses: ./module/lib/templates/check_merge@main
+      - uses: ./module/lib/templates/check_merge
