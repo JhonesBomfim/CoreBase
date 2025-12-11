@@ -20,16 +20,20 @@
 ## 🚀 How to Use
 
 ### 1. Fork the Project
+
 Click the **Fork** button at the top of this page to create a copy in your GitHub.
 
 ### 2. Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/CoreBase.git
 cd CoreBase
 ```
 
 ### 3. Configure Your Database
+
 Edit the `appsettings.json` file with your credentials:
+
 ```json
 {
   "ConnectionStrings": {
@@ -39,9 +43,11 @@ Edit the `appsettings.json` file with your credentials:
 ```
 
 ### 4. Configure the Application URL
+
 Adjust in `Properties/launchSettings.json` or environment variables as needed.
 
 ### 5. Run the Project
+
 ```bash
 dotnet restore
 dotnet build
@@ -51,6 +57,7 @@ dotnet run
 ## 🛡️ Security
 
 This project comes with:
+
 - Recommended security settings
 - HTTPS configured
 - Security headers applied
@@ -59,6 +66,7 @@ This project comes with:
 ## 🤝 Contributing
 
 Contributions are always welcome! Feel free to:
+
 - Report bugs
 - Suggest new features
 - Submit pull requests
