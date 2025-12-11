@@ -3,6 +3,8 @@
 ##
 ## Get latest from `dotnet new gitignore`
 obj/
+.python-version
+main.py
 
 # dotenv files
 .env
