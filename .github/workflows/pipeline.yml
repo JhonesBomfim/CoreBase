@@ -19,3 +19,10 @@ jobs:
       - uses: jhonesbomfim/continuos-actions/templates/check_merge@main
       - uses: jhonesbomfim/continuos-actions/templates/check_conflicts@main
       - uses: jhonesbomfim/continuos-actions/templates/check_draft@main
+
+  lint:
+    name: 🧐 Linting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jhonesbomfim/continuos-actions/templates/lint@main
