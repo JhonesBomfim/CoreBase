@@ -15,4 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: ./module/lib/templates/check_merge
+        with:
+          submodules: recursive
+      - uses: ./module/lib/templates/check_merge@main
