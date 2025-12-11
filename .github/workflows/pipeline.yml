@@ -18,3 +18,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: jhonesbomfim/continuos-actions/templates/check_merge@main
       - uses: jhonesbomfim/continuos-actions/templates/check_conflicts@main
+      - uses: jhonesbomfim/continuos-actions/templates/check_draft@main
