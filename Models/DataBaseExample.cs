@@ -9,7 +9,7 @@ namespace CoreBase.Models
         public int Id { get; set; }
 
         [StringLength(512)]
-        public string? Usename { get; set; }
+        public string? Username { get; set; }
 
         [StringLength(56)]
         public string? Password { get; set; }
