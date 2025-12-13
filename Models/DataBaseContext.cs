@@ -6,7 +6,7 @@ namespace CoreBase.Models
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("Server=<you_server>; Database=<name_database>;Uid=root;Pwd=;",
+            optionsBuilder.UseMySql("Server=localhost;Database=CoreBase;Uid=root;Pwd=;",
                 new MySqlServerVersion(new Version(8, 0, 11)));
         }
 
